@@ -23,12 +23,19 @@
     text-align:center;
 }
 
-.imgCenter{
-    max-height:993px;
-    max-width:1500px;
+.imgCenterAbout{
+    max-height:894px;
+    max-width:1350px;
     width:100%;
     min-width:500px;
     min-height:331px;
+}
+.imgCenterContr{
+    max-height:900px;
+    max-width:600px;
+    width:100%;
+    min-width:300;
+    min-height:200px;
 }
 
 #sidebar {

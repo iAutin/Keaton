@@ -29,6 +29,10 @@
     text-align:center;
 }
 
+.menuButtonPosition{
+    margin-left:10vh;
+}
+
 .textAlignCenter{
     text-align:center;
 }
@@ -46,6 +50,32 @@
     width:100%;
     min-width:300;
     min-height:200px;
+}
+
+.btn-Menu {
+    color: #fff;
+    background-color: #fff;
+    border-color: #fff;
+}
+
+button:focus {
+    outline:none;
+}
+
+.btn-lg{
+    padding: 2vh 2vh;
+    font-size:2em;
+}
+  
+.btn-Menu:hover {
+color: #fff;
+background-color: #fff;
+border-color: #fff;
+}
+
+.faBarsBlack{
+    color:black;
+    font-size:5em;
 }
 
 #sidebar {

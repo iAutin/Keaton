@@ -8,13 +8,33 @@
 
 .wrapper {
     display: flex;
-    align-items: stretch;
 }    
+
+.borderTest1{
+    border: 5px pink dotted;
+}
+.borderTest2{
+    border: 5px purple dotted;
+}
+.borderTest3{
+    border: 5px green dotted;
+}
+.imgDivCenter{
+    text-align:center;
+}
+
+.imgCenter{
+    max-height:993px;
+    max-width:1500px;
+    width:100%;
+    min-width:500px;
+    min-height:331px;
+}
 
 #sidebar {
     min-width: 250px;
     max-width: 250px;
-    min-height: 100vh;
+    height: 100vh;
     margin-left: -250px;
     transition: all 0.3s;
 }

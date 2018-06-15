@@ -13,13 +13,23 @@
 .borderTest1{
     border: 5px pink dotted;
 }
+.textMaxWidth{
+    width:40vw;
+    margin-left:auto;
+    margin-right:auto;
+    min-width:700px;
+}
 .borderTest2{
     border: 5px purple dotted;
 }
 .borderTest3{
     border: 5px green dotted;
 }
-.imgDivCenter{
+.divCenter{
+    text-align:center;
+}
+
+.textAlignCenter{
     text-align:center;
 }
 

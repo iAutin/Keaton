@@ -1,46 +1,96 @@
 <html>
-    <header>
-        <title>
-           WildFlowers 
-        </title>
-        <link rel="stylesheet" href="styles\bootstrap.css">
-        <link rel="stylesheet" href="styles\nice.css">
-        <link rel="stylesheet" href="styles\font-awesome.css">
-        <link rel="stylesheet" href="styles\bootstrap-social.css">
-        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-        <script src="js\scripts.js"></script>
-        <script src="js\boostrap.js"></script></header>
-    <body>
-        
-        <div>
-            <span>Shop</span>
-            <span><a href="home.html">home</a></span>
-            <span><a href="about.html">about</a></span>
-            <span><a class="selectedNavbarItem" href="shop.html">shop</a></span>
-            <span><a href="contact.html">contact</a></span>
-            <span><a href="contributors.html">contributors</a></span>
-            <a href="http://instagram.com/wildflowersgirlsmag"><span class="fa fa-instagram"></span></a>
+<header>
+    <title>
+        WildFlowers
+    </title>
+    <link rel="stylesheet" href="styles\bootstrap.css">
+    <link rel="stylesheet" href="styles\nice.css">
+    <link rel="stylesheet" href="styles\font-awesome.css">
+    <link rel="stylesheet" href="styles\bootstrap-social.css">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="js\scripts.js"></script>
+    <script src="js\boostrap.js"></script>
+</header>
+
+<body>
+
+    <div class="wrapper">
+        <nav id="sidebar">
+            <!-- Sidebar Header -->
+            <div class="sidebar-header">
+                <h3>Collapsible Sidebar
+            </div>
+
+            <!-- Sidebar Links -->
+            <ul class="list-unstyled components">
+                <li>
+                    <span>
+                        <a href="home.html">home</a>
+                    </span>
+                </li>
+                <li>
+                    <span>
+                        <a href="about.html">about</a>
+                    </span>
+                </li>
+                <li>
+                    <span>
+                        <a class="selectedNavbarItem" href="shop.html">shop</a>
+                    </span>
+                </li>
+                <li>
+                    <span>
+                        <a href="contact.html">contact</a>
+                    </span>
+                </li>
+                <li>
+                    <span>
+                        <a href="contributors.html">contributors</a>
+                    </span>
+                </li>
+            </ul>
+        </nav>
+
+        <div id="content">
+            <button type="button" id="sidebarCollapse" class="btn btn-info navbar-btn">
+                <i class="glyphicon glyphicon-align-left"></i>
+                Toggle Sidebar
+            </button>
         </div>
         <div>
             <div>
-                <span><a href="home.html">home</a></span>
-                <span><a href="about.html">about</a></span>
-                <span><a href="shop.html">shop</a></span>
-                <span><a href="contact.html">contact</a></span>
-                <span><a href="contributors.html">contributors</a></span>
+                <span>
+                    <a href="home.html">home</a>
+                </span>
+                <span>
+                    <a href="about.html">about</a>
+                </span>
+                <span>
+                    <a href="shop.html">shop</a>
+                </span>
+                <span>
+                    <a href="contact.html">contact</a>
+                </span>
+                <span>
+                    <a href="contributors.html">contributors</a>
+                </span>
             </div>
             <div>
-                <span>Sign up to get updates from our contributors, promotions,
-                        and sneak peeks of upcoming products.</span>
+                <span>Sign up to get updates from our contributors, promotions, and sneak peeks of upcoming products.</span>
             </div>
             <div class="form-group">
                 <label for="email"></label>
                 <input type="text" class="form-control" id="email" placeholder="Email Address">
-                <div><button type="button" class="btn btn-link">Sign Up</button></div>
-                
+                <div>
+                    <button type="button" class="btn btn-link">Sign Up</button>
+                </div>
+
             </div>
         </div>
-    </body>
-    
+    </div>
+</body>
+
 </html>

@@ -1,9 +1,3 @@
-.homeImageBackground{
-    width:100%;
-    height:100%;
-    background-size:cover;
-}
-
 .backgroundImageHome{
     width:100%;
     height:100%;
@@ -14,83 +8,76 @@
     background-size: cover;
     background-color: #464646;
 }
-.divBackgroundImage{
-    height:100%;
-    width:100%;
-}
 
-.wfHomeTitleDiv{
-    margin:auto;
-    width:70%;
-    padding-top:10%;
-    text-align:center;
-}
-
-.wfHomeTitleText{
-    font-family: cursive;
+.titleTextHome{
+    color:white;
     font-weight: 700;
-    font-size: 500%;
-    color:white;
-}
-
-.wfHomeFlavorDiv{
-    margin:auto;
+    font-size: 3em;
+    font-family:'Courier New', Courier, monospace;
     text-align:center;
-    padding-top: 2.5%;
-}
-.wfHomeFlavorText{
+    padding-top:1em;
+}   
+
+.flavorTextHome{
+    color:white;
     font-family: cursive;
-    font-size:2em;
-    color:white;
+    text-align:center;   
+    padding-top: 1em;
 }
 
-.wfHomeLinkDiv{
-    margin:auto;
+.linkTextBox{
+    padding-top: 2em;
+}
+.centerText{
     text-align:center;
-    padding-top: 2.5%;
 }
 
-.wfHomeLinks {
-    color:white;
-    -o-transition:.2s;
-    -ms-transition:.2s;
-    -moz-transition:.2s;
-    -webkit-transition:.2;
-    transition:.2s;
-    font-size:1.2em;
+.instagramCircle{
+    background-color:white;
+    border-radius:50%;
+    margin-left:auto;
+    margin-right:auto;
+    height:1.5em;
+    width:1.5em;
 }
-.wfHomeLinks:hover{
-    color:gray;
-    text-decoration: none;  
-}
-wfInstagramLinks{
-    color:black;
-    padding-bottom:5em;
-}
-
-.wfHomeInstagramDiv{
-    margin:auto;
-    text-align:center;
+.instagramText{
     padding-top: .25em;
 }
 
-.circleInstagramGlyph {
-    width:1.5em;
-    height:1.5em;
-    background-Color: white;
-    border-radius: 50%;
-    font-size:3em;
-    text-align:center;
-}
-.backgroundRed {
-    background-color: red;
-    text-align:center;
-}
-.backgroundGreen {
-    background-color: green;
-    text-align:center;
+.cleanLinks:visited{
+    text-decoration: none;
+    color:white;
 }
 
-.positionFixed{
-    position: relative;
+.cleanLinks:link{
+    text-decoration: none;
+    color:white;
+    -moz-transition: all .1s ease-in;
+    -o-transition: all .1s ease-in;
+    -webkit-transition: all .1s ease-in;
+    transition: all .1s ease-in;
+}
+
+.cleanLinks:hover{
+    text-decoration: none;
+    color:gray;
+}
+
+.cleanLinks:active{
+    text-decoration: none;
+    color:white;
+}
+
+.linkWidth{
+    width:45%;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.redBorder{
+    border: 3px solid red;
+}
+
+.greenBorder{
+    border: 3px solid green;
 }

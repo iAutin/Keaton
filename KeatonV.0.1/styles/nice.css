@@ -57,7 +57,7 @@
     -moz-transition:.2s;
     -webkit-transition:.2;
     transition:.2s;
-    font-size:2em;
+    font-size:1.2em;
 }
 .wfHomeLinks:hover{
     color:gray;
@@ -81,4 +81,16 @@ wfInstagramLinks{
     border-radius: 50%;
     font-size:3em;
     text-align:center;
+}
+.backgroundRed {
+    background-color: red;
+    text-align:center;
+}
+.backgroundGreen {
+    background-color: green;
+    text-align:center;
+}
+
+.positionFixed{
+    position: relative;
 }
